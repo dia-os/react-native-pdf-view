@@ -23,7 +23,7 @@ class PDFView extends Component {
 }
 
 PDFView.propTypes = {
-    ViewPropTypes,
+    ...ViewPropTypes,
     asset: PropTypes.string,
     src: PropTypes.string,
     pageNumber: PropTypes.number,
